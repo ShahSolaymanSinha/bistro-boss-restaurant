@@ -3,7 +3,7 @@ const Banner2 = () => {
     return (
         <div className="flex items-center justify-center mt-20" style={{ backgroundImage: `url(${bannerImg})`, width: "100%", height: "500px" }}>
             <div className="my-40">
-                <div className="px-20 py-20 bg-white w-2/3 mx-auto">
+                <div className="px-20 py-20 bg-white w-2/3 mx-auto rounded-sm">
                     <h3 className="text-center text-4xl font-semibold mb-2">BISTRO BOSS</h3>
                     <p className="text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis
