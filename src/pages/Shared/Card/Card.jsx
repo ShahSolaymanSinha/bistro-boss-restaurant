@@ -1,8 +1,12 @@
+import LazyLoad from "react-lazyload";
+
 const Card = ({ data }) => {
     return (
         <div className="card w-full bg-base-100 shadow-xl text-center">
             <figure>
-                <img src={data?.image} alt={data?.name} />
+                <LazyLoad height={"500"}>
+                    <img src={data?.image} alt={data?.name} />
+                </LazyLoad>
             </figure>
             <div className="card-body">
                 <h2 className="card-title flex justify-center">{data?.name}</h2>
