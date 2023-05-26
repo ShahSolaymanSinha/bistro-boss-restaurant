@@ -4,6 +4,8 @@ import CallUs from "../CallUs/CallUs";
 import Category from "../Category/Category";
 import ChefRecommends from "../ChefRecommends/ChefRecommends";
 import Menu from "../Menu/Menu";
+import TestimonialItem from "../Testimonials/TestimonialItem";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -14,6 +16,10 @@ const Home = () => {
             <Menu></Menu>
             <CallUs></CallUs>
             <ChefRecommends></ChefRecommends>
+            <div>
+                <Testimonials></Testimonials>
+                <TestimonialItem></TestimonialItem>
+            </div>
         </div>
     );
 };
