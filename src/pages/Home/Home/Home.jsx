@@ -1,5 +1,5 @@
+import BannerCustom from "../../Shared/BannerCustom/BannerCustom";
 import Banner from "../Banner/Banner";
-import Banner2 from "../Banner2/Banner2";
 import CallUs from "../CallUs/CallUs";
 import Category from "../Category/Category";
 import ChefRecommends from "../ChefRecommends/ChefRecommends";
@@ -12,11 +12,16 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Category></Category>
-            <Banner2></Banner2>
+            <BannerCustom
+                color={"white"}
+                heading={"Bistro Boss"}
+                subHeading={
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis praesentium! Deserunt magni aperiam dolor eius dolore at, nihil iusto ducimus incidunt quibusdam nemo."
+                }></BannerCustom>
             <Menu></Menu>
             <CallUs></CallUs>
             <ChefRecommends></ChefRecommends>
-            <div>
+            <div className="mt-40">
                 <Testimonials></Testimonials>
                 <TestimonialItem></TestimonialItem>
             </div>
