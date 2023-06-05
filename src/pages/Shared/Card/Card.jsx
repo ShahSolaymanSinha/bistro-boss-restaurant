@@ -8,6 +8,7 @@ const Card = ({ data }) => {
                     <img src={data?.image} alt={data?.name} />
                 </LazyLoad>
             </figure>
+
             <div className="card-body">
                 <h2 className="card-title flex justify-center">{data?.name}</h2>
                 <p>{data?.recipe}</p>

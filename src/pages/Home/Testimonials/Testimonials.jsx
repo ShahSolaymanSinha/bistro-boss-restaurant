@@ -11,7 +11,7 @@ const Testimonials = () => {
     };
     return (
         <div>
-            <SectionTitle subHeading={"What Our Client Say"} heading={"Testimonials"}></SectionTitle>
+            <SectionTitle subHeading={"What Our Client Say"} heading={"Testimonials"} />
             <div className="w-full flex justify-center -mt-5">
                 <Rating style={{ maxWidth: 300 }} value={3} itemStyles={customStyles} readOnly />
             </div>
